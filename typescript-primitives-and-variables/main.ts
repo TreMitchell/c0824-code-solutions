@@ -30,7 +30,7 @@ const empty: null = null;
 console.log('value of null:', empty);
 console.log('typeof empty:', typeof empty);
 
-/* Undefined is being assigned to the variable nothing;
+/* Undefined is being declared to the variable nothing;
 The log method of the console object is being called with two arguments, a string &
 the variable nothing; The log method of the console object is being called with two
 arguments, a string & typeof nothing */

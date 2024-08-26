@@ -5,7 +5,7 @@
 Answer the following questions in the provided markdown file before turning in this exercise:
 
 - What is the purpose of variables?
-  - The purpose of variables is to store data values/
+  - The purpose of variables is to store data values.
 - How do you **declare** a variable?
   - To declare a variable, you can use var, let or const. Const is only used when the value of a variable isn't expected to change.
 - How do you initialize (**assign a value to**) a variable?
