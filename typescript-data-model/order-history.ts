@@ -1,3 +1,6 @@
+/* A new interface orderDetails is being declared.
+The user, orderNumber, title, orderPlaced, delivered, & author properties will have the value of string.
+The cost and totalCost properties will have the value of number. */
 interface orderDetails {
   user: string;
   orderNumber: string;
@@ -9,6 +12,9 @@ interface orderDetails {
   totalCost?: number;
 }
 
+/* An object literal is being assigned to the variable orderHistory of type orderDetails.
+The strings listed below are being assigned to the properties user, orderNumber, title, orderPlaced, delivered, & author.
+The numbers listed below are being assigned to the property cost. */
 const orderHistory: orderDetails[] = [
   {
     user: 'JS Masher',
