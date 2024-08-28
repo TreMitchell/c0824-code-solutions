@@ -12,7 +12,7 @@ console.log(`10 minutes is ${convertMinutesToSeconds(10)} seconds.`);
 
 /* A function named greet is being defined with one parameter, name of type string,
 and a return type of string.
- */
+The variable greeting is equal to the type of string with the parameter name */
 function greet(name: string): string {
   const greeting: string = 'Hey ' + name + '!';
   return greeting;
@@ -70,15 +70,17 @@ console.log(
 function callOtherFunction(otherFunction: Function, params: unknown): any {
   return otherFunction(params);
 }
+
+const callOtherFunctionResult: number = callOtherFunction(
+  convertMinutesToSeconds,
+  10
+);
 /* The log method of the console object is being called with two arguments, a string &
 the function callOtherFunction of the function convertMinutesToSeconds.
 The log method of the console object is being called with two arguments, a string &
 the function callOtherFunction of the function getLastElement. */
-console.log(
-  '10 minutes converted to seconds is:',
-  callOtherFunction(convertMinutesToSeconds, 10)
-);
-console.log(
-  'The last element of getLastElement is:',
-  callOtherFunction(getLastElement, ['hello', 'Goodbye', 'Aloha'])
-);
+console.log('10 minutes converted to seconds is:', callOtherFunctionResult);
+// console.log(
+//   'The last element of getLastElement is:',
+//   callOtherFunction(getLastElement, ['hello', 'Goodbye', 'Aloha'])
+// );
