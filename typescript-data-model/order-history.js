@@ -1,4 +1,7 @@
 'use strict';
+/* An object literal is being assigned to the variable orderHistory of type orderDetails.
+The strings listed below are being assigned to the properties user, orderNumber, title, orderPlaced, delivered, & author.
+The numbers listed below are being assigned to the property cost. */
 const orderHistory = [
   {
     user: 'JS Masher',
