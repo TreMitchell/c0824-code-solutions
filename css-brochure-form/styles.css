@@ -3,6 +3,7 @@
 }
 
 h2 {
+  display: flex;
   text-transform: uppercase;
   color: #ec5c57;
   justify-content: center;
