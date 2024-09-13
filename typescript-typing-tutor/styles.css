@@ -1,0 +1,43 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  background-color: #fff;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.phrase {
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+  color: black;
+}
+
+span {
+  padding: 5px;
+  border-bottom: 2px solid transparent;
+}
+
+span.active {
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+span.correct {
+  color: green;
+}
+
+span.incorrect {
+  color: red;
+}
+
+#feedback {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #666;
+}
