@@ -1,5 +1,4 @@
 'use strict';
-// 1. Create an array containing three object literals representing books.
 const books = [
   { isbn: '978-3-16-148410-0', title: 'The Hobbit', author: 'J.R.R. Tolkien' },
   { isbn: '978-0-452-28423-4', title: '1984', author: 'George Orwell' },
