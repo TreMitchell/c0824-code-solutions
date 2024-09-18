@@ -1,6 +1,6 @@
 /* exported capitalizeWord */
 function capitalizeWord(word: string): string {
-  if (word === 'jaVAsCrIPt' || word === 'javaScript' || word === 'JavascRipt') {
+  if (word.toLowercase() === 'javascript') {
     return 'JavaScript';
   }
   if (word.length === 0) {
