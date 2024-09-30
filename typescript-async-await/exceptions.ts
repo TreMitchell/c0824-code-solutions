@@ -45,6 +45,14 @@ async function throwChained(): Promise<void> {
   }
 }
 
-throwOnce()
-  .then(() => throwSeveral())
-  .then(() => throwChained());
+async function readAll(): Promise<void> {
+  try {
+    await throwOnce();
+    await throwSeveral();
+    await throwChained();
+  } catch (error) {
+    console.log(elapsed(), 'Error:', error);
+  }
+}
+
+readAll();
