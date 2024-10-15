@@ -1,4 +1,6 @@
-* {
+@tailwind utilities;
+
+/* * {
   box-sizing: border-box;
 }
 
@@ -28,10 +30,11 @@ body {
 .col-lg-fourth {
   padding: 0 0.5rem;
   flex-basis: 100%;
-}
+} */
 
 /* your code 👇 here */
-@media only screen and (width >= 576px) {
+
+/* @media only screen and (width >= 576px) {
   .col-sm-half {
     flex-basis: 50%;
   }
@@ -45,4 +48,4 @@ body {
   .col-lg-fourth {
     flex-basis: 25%;
   }
-}
+} */
