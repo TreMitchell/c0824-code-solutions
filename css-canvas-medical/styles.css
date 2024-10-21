@@ -26,8 +26,9 @@ body {
   border-bottom: 1px solid #eaeaea;
 }
 
-.logo {
+.canvas-logo {
   width: 100px;
+  margin-right: 50px;
 }
 
 .navbar a {
@@ -62,6 +63,11 @@ body {
   margin-bottom: 20px;
 }
 
+.hero h1,
+h2 {
+  font-family: 'Tiempos Headline', sans-serif;
+}
+
 .hero p {
   font-size: 18px;
   margin-bottom: 30px;
@@ -88,10 +94,18 @@ body {
   text-align: center;
 }
 
+.why-canvas {
+  color: #666;
+}
+
 .clinician-list {
   display: flex;
   justify-content: space-around;
   margin-top: 40px;
+}
+
+li {
+  color: #666;
 }
 
 .clinician-list ul {
